@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif */
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+}
+
+input{
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+/* Navbar component style */
+.navbar{
+    width: 100%;
+    padding: 18px 10px;
+    background-color: rgb(207, 97, 240);
+    display: flex;
+    justify-content: space-between;
+    position: center;
+}
+
+img{
+    height: 90px;
+    border-radius: 10px;
+}
+.navbar h2{
+    border-radius: 10px;
+    font-family: initial;
+    width: fit-content;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* AlbumsList component style */
+.albums-list{
+    width: 100%;
+    margin: auto;
+    padding-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* List component style */
+.list{
+    border-radius: 10px;
+    width: 310px;
+    /* height: 350px; */
+    background-color:rgb(15, 14, 16);
+    margin-bottom: 5px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* UpdateAlbum component style */
+.update-album{
+    width: 350px;
+    margin: auto;
+    padding-top: 73px;
+    color: white;
+}
+.form-container{
+    border-radius: 10px;
+    background-color: darkslateblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+.inp-container{
+    margin: 10px;
+}
+
+/* addAlbum container style */
+.addalbum-container{
+    color: white;
+    padding-top: 73px;
+    width: 350px;
+    margin: auto;
+}
+.addalbum-form{
+    padding: 10px;
+    background-color: darkslateblue;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
